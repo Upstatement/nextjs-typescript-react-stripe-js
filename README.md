@@ -11,15 +11,15 @@ This is a full-stack TypeScript example using:
 
 ## Demo
 
-- Live demo: https://nextjs-typescript-react-stripe-js.now.sh/
-- CodeSandbox: https://codesandbox.io/s/github/stripe-samples/nextjs-typescript-react-stripe-js
-- Tutorial: https://dev.to/thorwebdev/type-safe-payments-with-next-js-typescript-and-stripe-4jo7
+- Live demo: <https://nextjs-typescript-react-stripe-js.now.sh/>
+- CodeSandbox: <https://codesandbox.io/s/github/stripe-samples/nextjs-typescript-react-stripe-js>
+- Tutorial: <https://dev.to/thorwebdev/type-safe-payments-with-next-js-typescript-and-stripe-4jo7>
 
 The demo is running in test mode -- use `4242424242424242` as a test card number with any CVC + future expiration date.
 
 Use the `4000000000003220` test card number to trigger a 3D Secure challenge flow.
 
-Read more about testing on Stripe at https://stripe.com/docs/testing.
+Read more about testing on Stripe at <https://stripe.com/docs/testing>.
 
 <details open><summary>Shopping Cart Checkout Demo</summary>
 <img src="./public/shopping_cart_demo.gif" alt="A gif of the Shopping Cart Checkout payment page." align="center">
@@ -63,27 +63,6 @@ Once you have access to [the environment variables you'll need](#required-config
 
 ## How to use
 
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-stripe-typescript with-stripe-typescript-app
-# or
-yarn create next-app --example with-stripe-typescript with-stripe-typescript-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-stripe-typescript
-cd with-stripe-typescript
-```
-
-### Required configuration
-
 Copy the `.env.local.example` file into a file named `.env.local` in the root directory of this project:
 
 ```bash
@@ -102,9 +81,6 @@ Now install the dependencies and start the development server.
 ```bash
 npm install
 npm run dev
-# or
-yarn
-yarn dev
 ```
 
 ### Forward webhooks to your local dev server
@@ -148,9 +124,11 @@ Alternatively, you can deploy using our template by clicking on the Deploy butto
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/select-scope?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript&id=70107786&env=NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,STRIPE_SECRET_KEY&envDescription=Enter%20your%20Stripe%20Keys&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript%23required-configuration)
 
 ## Get support
+
 If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](../../issues).
 
 If you have questions, comments, or need help with code, we're here to help:
+
 - on [IRC via freenode](https://webchat.freenode.net/?channel=#stripe)
 - on Twitter at [@StripeDev](https://twitter.com/StripeDev)
 - on Stack Overflow at the [stripe-payments](https://stackoverflow.com/tags/stripe-payments/info) tag

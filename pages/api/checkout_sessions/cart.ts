@@ -35,6 +35,7 @@ export default async function handler(
           allowed_countries: ['US', 'CA'],
         },
         line_items,
+        mode: 'payment',
         success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${req.headers.origin}/use-shopping-cart`,
       };
